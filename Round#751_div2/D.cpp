@@ -1,0 +1,27 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <string>
+
+using namespace std;
+
+void solve() {
+	int n;
+	cin >> n;
+	vector<int> a(n), b(n);
+	for (auto& x : a) cin >> x;
+	for (auto& x : b) cin >> x;
+
+
+}
+
+int main() {
+	ios_base::sync_with_stdio(false);
+	cin.tie(nullptr);
+	
+	int t{1};
+	cin >> t;
+	while (t--) solve();
+
+	return 0;
+}
